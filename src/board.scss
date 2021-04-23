@@ -1,0 +1,15 @@
+.board { 
+    display: grid;
+    max-width: 400px;
+    min-height: 400px;
+    margin: 30px auto;
+    border: 5px solid;
+    border-top-color: #C6C6C6;
+    border-right-color: #ececec;
+    border-left-color: #C6C6C6;
+    border-bottom-color: #ececec;
+    div { 
+        background: #C6C6C6;
+        border: 1px solid #000;
+    }
+}

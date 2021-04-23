@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>MineSweeper</h1>
+        <p class="options__text">Select Size:</p>
+        <div class="options">
+            <button data-size="9" class="btn sizes">9x9</button>
+            <button data-size="16" class="btn sizes">16x16</button>
+            <button data-size="24" class="btn sizes">24x24</button>
+            <!-- <button class="btn sizes custom">Custom</button> -->
+        </div>
+        <div class="board" id="gameBoard"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
